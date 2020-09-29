@@ -1,0 +1,44 @@
+.nav-bar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #f9f9fa;
+}
+
+.nav-bar__column {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.nav-bar__column i {
+  margin: 20px;
+}
+
+.nav-bar__dot,
+.nav-bar__badge {
+  border-radius: 50%;
+  background-color: #f86329;
+  position: absolute;
+  top: 10px;
+  right: 33px;
+}
+
+.nav-bar__badge {
+  width: 25px;
+  height: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.nav-bar__dot {
+  width: 10px;
+  height: 10px;
+}
