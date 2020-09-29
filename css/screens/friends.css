@@ -1,0 +1,30 @@
+.list {
+  margin-top: 20px;
+  border-top: 1px solid var(--lightgray);
+  margin-bottom: 15px;
+}
+
+.list__title {
+  color: var(--lightgray);
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  font-size: 14px;
+}
+
+.list .user-profile__photo {
+  background-color: #ef6d73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile__photo i {
+  color: white;
+  font-size: 23px;
+}
+
+.favorite .user-profile {
+  margin-bottom: 15px;
+}

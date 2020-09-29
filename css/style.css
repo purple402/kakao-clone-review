@@ -2,14 +2,20 @@
 
 /* screens */
 @import "screens/index.css";
+@import "screens/friends.css";
 
 /* components */
 @import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-profile.css";
 
 @import "variables.css";
 @import "reset.css";
 
 body {
   font-family: "Open Sans", sans-serif;
-  padding: 0px 15px;
+}
+
+.main-screen {
+  margin: 0px var(--horizontal-space);
 }
