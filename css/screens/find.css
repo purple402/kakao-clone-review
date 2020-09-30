@@ -144,3 +144,153 @@
   border-radius: 50%;
   background-color: var(--gray);
 }
+
+.new-confirmed {
+  position: relative;
+  top: 80px;
+}
+
+.new-confirmed__title span:first-child {
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.new-confirmed__title span:last-child {
+  color: var(--gray);
+}
+
+.new-confirmed__title i {
+  color: var(--lightgray);
+}
+
+.new-confirmed__chart {
+  display: flex;
+  justify-content: space-between;
+  height: 225px;
+  width: 100%;
+  margin-top: 25px;
+  align-items: flex-end;
+  font-size: 13px;
+  border-bottom: var(--main-border);
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.chart__scale {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10px;
+  border-right: var(--main-border);
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chart span {
+  color: #eb483f;
+  margin-bottom: 3px;
+}
+
+.chart__line-local,
+.chart__line-imported {
+  width: 7px;
+}
+
+.chart__line-local {
+  background-color: #eb483f;
+  border-radius: 5px 5px 0 0;
+}
+
+.chart__line-imported {
+  background-color: #edc993;
+}
+
+.date__0922 .chart__line-local {
+  height: 126px;
+}
+
+.date__0922 .chart__line-imported {
+  height: 20px;
+}
+
+.date__0923 .chart__line-local {
+  height: 146px;
+}
+
+.date__0923 .chart__line-imported {
+  height: 20px;
+}
+.date__0924 .chart__line-local {
+  height: 126px;
+}
+
+.date__0924 .chart__line-imported {
+  height: 25px;
+}
+
+.date__0925 .chart__line-local {
+  height: 65px;
+}
+
+.date__0925 .chart__line-imported {
+  height: 16px;
+}
+
+.date__0926 .chart__line-local {
+  height: 97px;
+}
+
+.date__0926 .chart__line-imported {
+  height: 29px;
+}
+
+.date__0927 .chart__line-local {
+  height: 53px;
+}
+
+.date__0927 .chart__line-imported {
+  height: 13px;
+}
+
+.date__0928 .chart__line-local {
+  height: 30px;
+}
+
+.date__0928 .chart__line-imported {
+  height: 20px;
+}
+
+.chart__date {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  position: relative;
+  left: 15%;
+  color: var(--gray);
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+.covid-global {
+  position: relative;
+  width: 100vw;
+  left: -25px;
+  top: 130px;
+  height: 70px;
+  border-top: 10px solid #f0f1f4;
+  border-bottom: 10px solid #f0f1f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid-global img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
