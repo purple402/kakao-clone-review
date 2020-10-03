@@ -3,10 +3,6 @@
   align-items: center;
 }
 
-.header-settings .screen-header__icon {
-  margin-right: 15px;
-}
-
 .header-settings .screen-header__title {
   font-size: 25px;
   margin-left: 20px;
