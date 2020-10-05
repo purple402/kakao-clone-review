@@ -7,9 +7,9 @@
     <title>Chat - Kokoa Talk</title>
   </head>
 
-  <body>
+  <body class="chat-screen">
     <div class="status-bar__space"></div>
-    <div class="status-bar">
+    <div class="status-bar chat-screen">
       <div class="status__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -22,7 +22,7 @@
     </div>
 
     <div class="screen-header__space"></div>
-    <div class="screen-header">
+    <div class="screen-header chat-screen">
       <div class="screen-header__column">
         <a href="chats.html"><i class="fas fa-chevron-left fa-lg"></i></a>
       </div>
@@ -37,8 +37,21 @@
       </div>
     </div>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="time-stamp">Tuesday, September 29, 2020</div>
 
+      <div class="message-row">
+        <img src="KakaoTalk_profile.jpg" />
+        <div class="message-row__content">
+          <span class="message-row__author"> Joy Lee </span>
+          <div class="message-row__info">
+            <span class="message__bubble">어제 하려다 까먹었음</span>
+            <span class="message__bubble">오늘하려고</span>
+            <span class="message__time">3:44PM</span>
+          </div>
+        </div>
+      </div>
+    </main>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
