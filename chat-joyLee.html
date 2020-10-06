@@ -40,18 +40,31 @@
     <main class="main-screen main-chat">
       <div class="time-stamp">Tuesday, September 29, 2020</div>
 
-      <div class="message-row">
-        <img src="KakaoTalk_profile.jpg" />
-        <div class="message-row__content">
-          <span class="message-row__author"> Joy Lee </span>
-          <div class="message-row__info">
-            <span class="message__bubble">어제 하려다 까먹었음</span>
-            <span class="message__bubble">오늘하려고</span>
-            <span class="message__time">3:44PM</span>
-          </div>
+      <div class="message-row__own">
+        <div class="message-row__info">
+          <span class="message__bubble"
+            >http://purple402.github.io/kokoa-clone-review/</span
+          >
         </div>
+        <!-- <span class="message__time">3:44PM</span> -->
+      </div>
+
+      <div class="message-row__own">
+        <div class="message-row__info">
+          <span class="message__bubble">nomad coder에 comment쓰기</span>
+        </div>
+        <span class="message__time">3:44PM</span>
       </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column"><i class="far fa-plus-square"></i></div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
