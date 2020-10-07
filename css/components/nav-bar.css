@@ -64,3 +64,10 @@
   width: 10px;
   height: 10px;
 }
+
+.nav-bar__space {
+  width: 100%;
+  height: 72px;
+  position: relative;
+  bottom: -130px;
+}
