@@ -21,7 +21,7 @@
   padding: 8px;
   border-radius: 14px;
   font-size: 14px;
-  margin: 20px 0px;
+  margin: 5px 0px;
 }
 
 @keyframes fadeInLeft {
@@ -39,7 +39,8 @@
   display: flex;
   width: 100%;
   justify-content: flex-start;
-  animation: fadeInLeft 0.7s linear;
+  animation: fadeInLeft 0.7s linear backwards;
+  margin-top: 15px;
 }
 
 .message-row img {
@@ -76,7 +77,7 @@
   width: 100%;
   position: relative;
   left: 53px;
-  animation: fadeInLeft 0.7s linear;
+  animation: fadeInLeft 0.7s linear backwards;
 }
 
 @keyframes fadeInRight {
@@ -95,7 +96,7 @@
   flex-direction: row-reverse;
   width: 100%;
   position: relative;
-  animation: fadeInRight 0.7s linear;
+  animation: fadeInRight 0.7s linear backwards;
 }
 
 .message-row__own .message__bubble {
@@ -181,4 +182,22 @@
 
 .reply:focus-within {
   transform: translateY(70px);
+}
+
+.message__2nd {
+  animation-delay: 0.7s;
+}
+
+.message__3rd {
+  animation-delay: 1.4s;
+}
+
+.message__4th {
+  animation-delay: 2.1s;
+}
+
+.message-row__content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
 }
