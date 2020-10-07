@@ -114,3 +114,19 @@
   top: 25px;
   right: 25px;
 }
+
+.more-screen .user-profile:hover {
+  animation: none;
+}
+
+@keyframes rotation {
+  from {
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.more-screen .fa-cog:hover {
+  animation: rotation 2s linear infinite;
+}
