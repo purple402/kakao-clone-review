@@ -63,6 +63,7 @@
   border-radius: 13px;
   background-color: white;
   margin: 5px 0px;
+  border-top-left-radius: 0px;
 }
 
 .message__time {
@@ -78,6 +79,15 @@
   position: relative;
   left: 53px;
   animation: fadeInLeft 0.7s linear backwards;
+}
+
+.message-row__cont .message__bubble {
+  border-top-left-radius: 13px;
+}
+
+.message-row__own .message__bubble {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 0px;
 }
 
 @keyframes fadeInRight {
