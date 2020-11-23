@@ -1,6 +1,34 @@
 .user-profile {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.user-profile__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list .user-profile__photo,
+.chats-list .user-profile__photo,
+.message-row .user-profile__photo {
+  background-color: var(--darkblue);
+}
+
+.user-profile__photo i {
+  color: white;
+  font-size: 23px;
+}
+
+.user-profile__photo img {
+  width: 35px;
+  height: 35px;
+}
+
+.user-profile__photo-lg img {
+  width: 50px;
+  height: 50px;
 }
 
 @keyframes heartBeat {
@@ -41,8 +69,8 @@
 
 .user-profile__text__title span:first-child {
   font-weight: 600;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  font-size: 22px;
+  color: var(--lightwhite);
 }
 
 .user-profile__text__title span:last-child {
@@ -51,19 +79,31 @@
 }
 
 .user-profile__text__status span {
-  color: var(--gray);
-  font-size: 14px;
+  color: var(--lightwhite);
+  font-size: 17px;
+  opacity: 0.7;
 }
 
 .user-profile__photo-lg {
   width: 70px;
   height: 70px;
+  background-color: var(--burgundy);
 }
 
 .user-profile__column:last-child {
-  color: var(--lightgray);
+  color: var(--lightwhite);
 }
 
 .user-profile__column:last-child i {
   margin-left: 5px;
+}
+
+.user-profile__column .user-profile__me {
+  background-color: var(--burgundy);
+}
+
+.message-row .user-profile__photo {
+  margin-right: 0px;
+  position: relative;
+  left: -5px;
 }

@@ -1,32 +1,16 @@
 .list {
   margin-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--main-border);
   margin-bottom: 15px;
 }
 
 .list__title {
-  color: var(--gray);
+  color: var(--lightwhite);
   font-weight: 600;
   display: flex;
   justify-content: space-between;
   padding: 15px 0px;
-  font-size: 14px;
-}
-
-.list .user-profile__photo {
-  background-color: #ef6d73;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.user-profile__photo i {
-  color: white;
-  font-size: 23px;
-}
-
-.user-profile {
-  margin-bottom: 15px;
+  font-size: 17px;
 }
 
 @keyframes hideSplashScreen {
@@ -43,13 +27,13 @@
 #screen-size {
   width: 100vw;
   height: 100vh;
-  background-color: var(--yellow);
-  color: #3c1e1e;
+  background-image: url("../../jpgsources/eternal-sunshine-2.jpg");
+  color: var(--lightwhite);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  position: absolute;
+  position: fixed;
   top: 0px;
 }
 
@@ -74,4 +58,16 @@
   #please-rotate {
     visibility: visible;
   }
+}
+
+.bg-image {
+  background-image: url("../../jpgsources/eternal-sunshine-2.jpg");
+}
+
+.user-profile__music {
+  background-color: #e7eff9b6;
+  border: var(--main-border);
+  border-radius: 15px;
+  color: var(--gray);
+  padding: 10px;
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600&family=Open+Sans:wght@400;600&display=swap");
 
 /* components */
 @import "components/status-bar.css";
@@ -19,7 +19,7 @@
 @import "reset.css";
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Barlow Condensed", "Open Sans", sans-serif;
 }
 
 .main-screen {
@@ -28,5 +28,5 @@ body {
 
 a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.8);
+  color: var(--lightwhite);
 }

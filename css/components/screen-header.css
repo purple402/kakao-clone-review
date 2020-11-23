@@ -7,12 +7,13 @@
   width: 100%;
   box-sizing: border-box;
   top: 30px;
-  background-color: white;
+  background-image: url("../../jpgsources/eternal-sunshine-screen-header.jpg");
 }
 
 .screen-header__title {
   font-size: 30px;
   font-weight: 600;
+  color: #e7eff9;
 }
 
 .screen-header__column {
@@ -26,6 +27,7 @@
   padding: 0px 8px;
   font-size: 18px;
   box-sizing: border-box;
+  color: #e7eff9;
 }
 
 .screen-header__icon:nth-child(2) {

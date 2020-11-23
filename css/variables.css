@@ -4,5 +4,8 @@
   --yellow: #fae101;
   --red: #f86329;
   --horizontal-space: 25px;
-  --main-border: 1px solid rgba(0, 0, 0, 0.1);
+  --main-border: 1px solid #e7eff98c;
+  --burgundy: #770a2b;
+  --darkblue: #08143e;
+  --lightwhite: #e7eff9;
 }

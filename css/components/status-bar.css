@@ -7,7 +7,7 @@
   top: 0px;
   align-items: center;
   box-sizing: border-box;
-  background-color: white;
+  background-image: url("../../jpgsources/eternal-sunshine-status-bar.jpg");
 }
 
 .status__column {
@@ -15,6 +15,11 @@
   font-weight: 600;
   display: flex;
   align-items: center;
+  color: var(--lightwhite);
+}
+
+.status__column span {
+  font-size: 18px;
 }
 
 .status__column:nth-child(2) {
