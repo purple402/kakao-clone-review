@@ -10,14 +10,15 @@
   justify-content: center;
   margin-top: 80px;
   margin-bottom: 35px;
-  font-size: 25px;
+  font-size: 40px;
+  color: var(--lightwhite);
+  font-weight: bold;
 }
 
 .welcome-header__text {
   margin-bottom: 75px;
-  color: var(--gray);
-  font-weight: 600;
-  font-size: 18px;
+  color: var(--lightwhite);
+  font-size: 20px;
 }
 
 .welcome-header__text span:first-child {
@@ -31,14 +32,16 @@
 
 .welcome-input {
   border: none;
-  border-bottom: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightwhite);
   padding: 28px 0px;
   transition: border-bottom 0.3s ease-in-out;
+  background-color: transparent;
 }
 
 .welcome-input::placeholder {
-  font-size: 22px;
-  color: var(--gray);
+  font-size: 24px;
+  color: var(--lightwhite);
+  font-family: "Barlow Condensed";
 }
 
 .welcome-input:nth-child(2) {
@@ -47,15 +50,17 @@
 
 .welcome-input:focus {
   outline: none;
-  border-bottom: 1px solid var(--yellow);
+  border-bottom: 1px solid var(--darkblue);
 }
 
 .welcome-submit {
   height: 60px;
-  background-color: var(--yellow);
+  background-color: var(--darkblue);
   border: none;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 20px;
+  color: var(--lightwhite);
+  font-family: "Barlow Condensed";
 }
 
 .welcome-findAccount {
